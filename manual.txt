@@ -1,0 +1,17 @@
+Manual do Sistema de Arquivos:
+
+O primeiro passo é inserir o nome da imagem (seguido de ".img") que será utilizada.
+
+Em seguida, será exibido um menu com 7 opções que variam de 0 a 6:
+
+0 - Listar arquivos do diretório atual
+1 - criar um diretório
+2 - copiar um arquivo do disco rigido para o sistema de arquivos
+3 - copiar um arquivo do sistema de arquivos para o disco rigido
+4 - ir para um diretório (se for informado o nome de diretório "root", o usuario é redirecionado ao diretorio raiz)
+5 - formatação do sistema de arquivos
+6 - encerrar a execução
+
+qualquer outra operação informada será respondida com uma mensagem de erro, e então o menu será reexibido
+
+o menu seguirá sendo reexibido até que seja escolhida a operação 6 (encerrar a execução).
